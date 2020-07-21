@@ -8,26 +8,31 @@ const Header = () => (
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
-          <LogoIcon />
+          <a href="#">
+            <LogoIcon />
+          </a>
         </div>
-        Lander
+        Diligent Tutors
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#">
+          Home
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+        <AnchorLink className="px-4" href="#">
           Services
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#">
+          For Schools
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#">
+          Getting Started
+        </AnchorLink>
+        <AnchorLink className="px-4" href="#">
+          Sign In
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <Button className="text-sm">Sign Up</Button>
       </div>
     </div>
   </header>
