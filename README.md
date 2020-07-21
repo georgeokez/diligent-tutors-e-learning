@@ -1,1 +1,1 @@
-## Diligent Tutor E-Learning Platform
+## Diligent Academy E-Learning Platform
