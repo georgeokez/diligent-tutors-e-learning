@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../components/Button';
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
