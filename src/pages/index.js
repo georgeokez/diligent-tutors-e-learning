@@ -23,7 +23,9 @@ export default () => (
             learning tools. We provide all this in real time.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <a href="../app/Excel Quiz.exe" download>
+              <Button size="lg">Download App</Button>
+            </a>
           </p>
         </div>
         <div className="lg:w-1/2">
