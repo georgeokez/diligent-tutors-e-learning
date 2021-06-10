@@ -32,7 +32,9 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Sign Up</Button>
+        <a href="../app/Excel Quiz.exe" download>
+          <Button className="text-sm">Download App</Button>
+        </a>
       </div>
     </div>
   </header>
