@@ -10,6 +10,7 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
+
 export default () => (
   <Layout>
     <section className="pt-20 md:pt-40">
@@ -23,7 +24,7 @@ export default () => (
             learning tools. We provide all this in real time.
           </p>
           <p className="mt-8 md:mt-12">
-            <a href="../app/Excel Quiz.exe" download>
+            <a href="../app/Excel Quiz.zip" download>
               <Button size="lg">Download App</Button>
             </a>
           </p>
