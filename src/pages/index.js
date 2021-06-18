@@ -11,7 +11,12 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
 
-export default () => (
+export default () => {
+
+  const siteUrl = 'https://www.filesend.jp/l/en-US/7Enp3c';
+  const downloadUrl = 'https://s3.eu-west-2.amazonaws.com/blob-eu-west-2-se6yjj/sara/fc/fc04/fc04018e-3107-402c-a474-4588d5f296a9.bin?response-content-disposition=attachment%3B%20filename%3D%22Excel%2520Quiz.exe%22&response-content-type=application%2Fx-msdownload&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI75SICYCOZ7DPWTA%2F20210618%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210618T152501Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=b9d3e590c2cbb1f5b1699a28ab21c30e53e920934adb9127aba20c9dccc380c6';
+
+  return (
   <Layout>
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
@@ -24,7 +29,7 @@ export default () => (
             learning tools. We provide all this in real time.
           </p>
           <p className="mt-8 md:mt-12">
-            <a href="../app/Excel Quiz.zip" download>
+            <a href={downloadUrl} download>
               <Button size="lg">Download App</Button>
             </a>
           </p>
@@ -109,5 +114,7 @@ export default () => (
         <Button size="xl">Get Started Now</Button>
       </p>
     </section>
-  </Layout>
-);
+    </Layout>
+  );
+
+}
